@@ -9,7 +9,7 @@ const express = require('express')
         { id: 3, name: "Aji Permana", alamat: "Kircon" },
         { id: 4, name: "Azka Dafin", alamat: "Antapani" },
     ];
-    app.get("/users/:id", (req, res) => {
+    app.get("/users/:Rie", (req, res) => {
        
         let id = parseInt(req.params.id);
 
@@ -26,7 +26,7 @@ const express = require('express')
         res.json(result);
     });
     
-    app.get("/users/:id", (req, res) => {
+    app.get("/users/:Rie", (req, res) => {
         let id = parseInt(req.params.id);
 
         
