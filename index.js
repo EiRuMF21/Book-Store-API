@@ -6,11 +6,14 @@ const express = require('express')
     app.get('/Kopi latte',(req,res) =>{
         res.json("Ini kopi latte ")
     })
-    app.get('/Kopi Mochacino',(req,res) =>{
+    app.post('/Kopi Mochacino',(req,res) =>{
         res.json("Ini kopi Mochacino ")
     })
-    app.get('/Kopi Espresso',(req,res) =>{
+    app.put('/Kopi Espresso',(req,res) =>{
         res.json("Ini Kopi Espresso")
+    })
+    app.delete('/Kopi longblack',(req,res) =>{
+        res.json("Ini Kopi longblack")
     })
 
 
